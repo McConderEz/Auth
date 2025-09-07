@@ -1,0 +1,24 @@
+﻿{
+  "Roles": {
+    "Admin": [
+      "discussion.read",
+      "discussion.create",
+      "discussion.update",
+      "discussion.delete"
+    ],
+    "Participant": [
+      "discussion.read",
+      "discussion.create",
+      "discussion.update",
+      "discussion.delete"
+    ]
+  },
+  "Permissions": {
+    "Discussion": [
+      "discussion.read",
+      "discussion.create",
+      "discussion.update",
+      "discussion.delete"
+    ]
+  }
+}

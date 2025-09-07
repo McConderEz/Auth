@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Shared\Framework\Framework.csproj" />
+      <ProjectReference Include="..\Accounts.Application\Accounts.Application.csproj" />
+      <ProjectReference Include="..\Accounts.Contracts\Accounts.Contracts.csproj" />
+      <ProjectReference Include="..\Accounts.Infrastructure\Accounts.Infrastructure.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Microsoft.AspNetCore.Mvc.Core" />
+    </ItemGroup>
+
+</Project>
