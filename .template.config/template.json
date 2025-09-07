@@ -1,0 +1,10 @@
+{
+  "$schema": "http://auth.schemastore.org/template",
+  "author": "Minoddein aka McConder",
+  "classifications": [ "Web", "API", "Clean Architecture", "Auth", "Modular-Monolith" ],
+  "identity": "qwdm3io2md904mfvopwd823d3kd02d9k02s",
+  "name": "ASP.NET Core Web API Template with Auth",
+  "shortName": "ASP.AUTH",
+  "sourceName": "PROJECT_NAME",
+  "preferNameDirectory": true
+}
